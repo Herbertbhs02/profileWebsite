@@ -9,17 +9,22 @@ import Calculator from './Calculator';
  class Projects  extends Component {
   render() {
     const settings = {
+        
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      
+      
+
     };
     return (
       <div>
         <h2 style={{textAlign:'center'}}>React Projects</h2>
+    
         <Slider {...settings}>
-          <div>
+          <div >
             <Connectbambi/>
           </div>
           <div>
@@ -38,6 +43,7 @@ import Calculator from './Calculator';
             <h3>6</h3>
           </div>
         </Slider>
+        
       </div>
     );
   }

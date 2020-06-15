@@ -14,6 +14,7 @@ import MainRoute from './components/MainRoute';
               <Navigation>
                   <Link to="/">Home</Link>
                   <Link to="/Projects">Projects</Link>
+                  <a href="https://github.com/Herbertbhs02?tab=overview&from=2020-01-01&to=2020-01-31" target="_blank" >GitHub</a>
                   <Link to="/Contact">Contact</Link>
               </Navigation>
           </Header>

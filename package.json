@@ -10,7 +10,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "materialize-css": "^1.0.0-rc.2",
     "mathjs": "5.4.0",
     "model": "6.0.1",

@@ -5,6 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Connectbambi from './Connectbambi';
 import Wikipedia from './Wikipedia';
 import Calculator from './Calculator';
+import Houseview from './Houseview';
+import logo192 from '../Assets/logo192.png';
+import '../Style/projects/projects.css';
+
 
  class Projects  extends Component {
   render() {
@@ -21,12 +25,18 @@ import Calculator from './Calculator';
     };
     return (
       <div>
-        <h2 style={{textAlign:'center'}}>React Projects</h2>
+      
+        <h2 className='reactproject'><img className='reactlog' src={logo192} alt="logo192" />REACT PROJECTS</h2>
     
         <Slider {...settings}>
           <div >
             <Connectbambi/>
           </div>
+
+          <div>
+          <Houseview/>
+        </div>
+
           <div>
             <Wikipedia/>
           </div>
@@ -34,14 +44,9 @@ import Calculator from './Calculator';
             <Calculator/>
           </div>
           <div>
-            <h3>4</h3>
+           
           </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
+        
         </Slider>
         
       </div>

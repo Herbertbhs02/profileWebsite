@@ -1,11 +1,13 @@
-.wiki{
-	
+.houseview{
     background: black;
     color: white;
+    text-align: center;
 	padding: 1%;
     margin: 1% 20% 1% 20%;
     border-radius: 5px;
     box-shadow: 5px 4px rgb(83, 86, 90)
-        }
+}
 
-
+.houseview p{
+    font-size: 22px
+}

@@ -4,5 +4,6 @@
     padding: 20px;
     margin: 40px 30% 10px 30%;
     background-color: black;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 5px 4px rgb(83, 86, 90)
 }

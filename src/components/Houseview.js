@@ -5,7 +5,7 @@ const Houseview = () => {
   return (
         <div className='houseview'>
         <h3>Coming soon: Virtual reality house viewing</h3>
-        <p>A virtual reality app which can be used by house buyers to view houses in virtual reality.</p>
+        <p>A virtual reality App which can be used by home buyers to view houses.</p>
       
         </div>
   )

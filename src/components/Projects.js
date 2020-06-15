@@ -43,9 +43,6 @@ import '../Style/projects/projects.css';
           <div>
             <Calculator/>
           </div>
-          <div>
-           
-          </div>
         
         </Slider>
         

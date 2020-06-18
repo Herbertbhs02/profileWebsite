@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-//import './App.css';
 import { Link } from "react-router-dom";
 import MainRoute from './components/MainRoute';
 
  class App extends Component {
+//function to close Drawer after click.
+    hideToggle() {
+        var selectorId = document.querySelector('.mdl-layout');
+        selectorId.MaterialLayout.toggleDrawer();
+    }
   render() {
     return (
       <div>
@@ -20,9 +24,9 @@ import MainRoute from './components/MainRoute';
           </Header>
           <Drawer title="Select">
               <Navigation>
-              <Link to="/">Home</Link>
-                  <Link to="/Contact">Contact</Link>
-                  <Link to="/Projects">Projects</Link>
+              <Link to="/" onClick={() => this.hideToggle()}/*Hide after click*/>Home</Link>
+                  <Link to="/Contact" onClick={() => this.hideToggle()}/*Hide after click*/ >Contact</Link>
+                  <Link to="/Projects" onClick={() => this.hideToggle()}/*Hide after click*/>Projects</Link>
                   
               </Navigation>
           </Drawer>

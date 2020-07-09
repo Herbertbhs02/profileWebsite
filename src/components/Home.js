@@ -12,7 +12,7 @@ import '../Style/home/home.css'
 
         <div className='devlist'><h3>FULL STACK WEB DEVELOPER</h3>
         <hr style={{border:" dotted"}}/>
-        <h5>HTML | CSS-Flexbox,Grid | JavaScript | React |Redux| Nodejs | Express | MongoDB | Github | AWS-Cloud</h5>
+        <h5>HTML | CSS-Flexbox,Grid | JavaScript | React |Redux| Nodejs | Express | MongoDB | Cypress--Automation Test | Github | AWS-Cloud</h5>
         </div>
     </div>
   );

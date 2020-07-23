@@ -6,6 +6,7 @@ import Connectbambi from './Connectbambi';
 import Wikipedia from './Wikipedia';
 import Calculator from './Calculator';
 import Houseview from './Houseview';
+import Blogapp from './Blogapp';
 import logo192 from '../Assets/logo192.png';
 import '../Style/projects/projects.css';
 
@@ -26,12 +27,16 @@ import '../Style/projects/projects.css';
     return (
       <div>
       
-        <h2 className='reactproject'><img className='reactlog' src={logo192} alt="logo192" />REACT PROJECTS</h2>
+        <h2 className='reactproject'> PROJECTS</h2>
     
         <Slider {...settings}>
           <div >
             <Connectbambi/>
           </div>
+
+          <div>
+          <Blogapp/>
+        </div>
 
           <div>
           <Houseview/>

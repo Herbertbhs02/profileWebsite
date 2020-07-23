@@ -1,6 +1,7 @@
 import React from "react";
 import * as math from "mathjs";
 import Button from "./Button";
+import logo192 from '../Assets/logo192.png';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -47,7 +48,7 @@ class Calculator extends React.Component {
     return (
       <div className="App">
         <h3>
-          Calculator
+        <img className='reactlog' src={logo192} alt="logo192" />Calculator
         </h3>
         <input type="text" className="input" value={this.state.result} />
         <br />

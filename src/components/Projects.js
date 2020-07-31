@@ -7,6 +7,7 @@ import Wikipedia from './Wikipedia';
 import Calculator from './Calculator';
 import Houseview from './Houseview';
 import Blogapp from './Blogapp';
+import Product from './product-demo';
 import logo192 from '../Assets/logo192.png';
 import '../Style/projects/projects.css';
 
@@ -36,6 +37,10 @@ import '../Style/projects/projects.css';
 
           <div>
           <Blogapp/>
+        </div>
+
+        <div>
+          <Product/>
         </div>
 
           <div>
